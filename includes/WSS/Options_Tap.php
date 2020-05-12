@@ -49,6 +49,7 @@ class Options_Tap {
 				'type'    => 'multiselect',
 				'default' => 'Default value for the option',
 				'id'      => 'wss_state',
+				'css' => 'height: 200px',
 				'options' => $this->get_states()
 			),
 			array(
