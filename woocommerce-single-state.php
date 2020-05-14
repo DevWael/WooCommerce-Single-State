@@ -7,6 +7,7 @@
  * Author: Ahmad Wael
  * Author URI: https://github.com/devwael
  * License: GPL2
+ * Text Domain: wss
  */
 
 namespace WSS;
@@ -38,3 +39,11 @@ function wss_init() {
 	Single_State::init();
 }
 
+add_action( 'plugins_loaded', 'WSS\wss_load_textdomain' );
+function wss_load_textdomain() {
+	load_plugin_textdomain(
+		'wss',
+		false,
+		dirname( plugin_basename( __FILE__ ) ) . '/languages'
+	);
+}

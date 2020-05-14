@@ -1,0 +1,52 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Single State\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-14 19:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4"
+
+#. Author of the plugin
+msgid "Ahmad Wael"
+msgstr ""
+
+#: includes/WSS/Options_Tap.php:40 includes/WSS/Options_Tap.php:43
+msgid "Enable"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/devwael"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://innoshop.co"
+msgstr ""
+
+#. Description of the plugin
+msgid "Limit checkout states to one state only."
+msgstr ""
+
+#: includes/WSS/Options_Tap.php:48
+msgid "Select state"
+msgstr ""
+
+#: includes/WSS/Options_Tap.php:20
+msgid "Single State"
+msgstr ""
+
+#: includes/WSS/Options_Tap.php:35
+msgid "Single State settings"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Single State"
+msgstr ""

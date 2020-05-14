@@ -32,7 +32,7 @@ class Options_Tap {
 	private function setting_fields() {
 		$settings = array(
 			array(
-				'name' => __( 'Section Title', 'wss' ),
+				'name' => __( 'Single State settings', 'wss' ),
 				'type' => 'title',
 				'id'   => 'wc_settings_tab_demo_section_title'
 			),
