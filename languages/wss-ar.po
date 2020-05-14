@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Woocommerce Single State\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-14 19:39+0000\n"
-"PO-Revision-Date: 2020-05-14 19:43+0000\n"
+"PO-Revision-Date: 2020-05-14 21:27+0000\n"
 "Last-Translator: \n"
 "Language-Team: العربية\n"
 "Language: ar\n"
@@ -45,7 +45,7 @@ msgstr "المحافظة"
 
 #: includes/WSS/Options_Tap.php:35
 msgid "Single State settings"
-msgstr "اعداتات المحافظة"
+msgstr "اعدادات تحديد المحافظات"
 
 #. Name of the plugin
 msgid "Woocommerce Single State"
