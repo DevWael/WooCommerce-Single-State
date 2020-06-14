@@ -3,7 +3,7 @@
  * Plugin Name: Woocommerce Single State
  * Plugin URI: https://innoshop.co
  * Description: Limit checkout states to one state only.
- * Version: 1.0
+ * Version: 1.1
  * Author: Ahmad Wael
  * Author URI: https://github.com/devwael
  * License: GPL2
@@ -14,6 +14,7 @@ namespace WSS;
 
 defined( 'ABSPATH' ) || exit; //prevent direct file access.
 define( 'WSS_DIR', plugin_dir_path( __FILE__ ) );
+define( 'WSS_URL', plugin_dir_url( __FILE__ ) );
 
 spl_autoload_register( 'WSS\wss_autoloader' );
 function wss_autoloader( $class_name ) {

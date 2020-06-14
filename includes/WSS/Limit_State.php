@@ -13,6 +13,30 @@ class Limit_State {
 
 	public function load() {
 		add_filter( 'woocommerce_states', array( $this, 'states' ), 1000, 1 );
+		add_action( 'admin_enqueue_scripts', array( $this, 'load_assets' ) );
+		add_action( 'admin_menu', array( $this, 'admin_menu' ) );
+	}
+
+	public function load_assets() {
+		wp_enqueue_style( 'select2-css', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-beta.1/css/select2.min.css' );
+		wp_enqueue_script( 'select2-js', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-beta.1/js/select2.min.js', array( 'jquery' ), false, true );
+		wp_enqueue_script( 'select2-init-js', WSS_URL . 'assets/js/main.js', array(
+			'jquery',
+			'select2-js'
+		), false, true );
+	}
+
+	public function admin_menu() {
+		add_submenu_page( 'wsd_settings_base_id', __( 'State States', 'wss' ),
+			__( 'State States', 'wss' ),
+			'manage_options',
+			'wss_settings',
+			array( $this, 'admin_menu_page' ), 4 );
+	}
+
+	public function admin_menu_page() {
+		wp_safe_redirect( admin_url( 'admin.php?page=wc-settings&tab=wss_settings' ) );
+		exit;
 	}
 
 	private function get_country() {

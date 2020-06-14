@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Woocommerce Single State\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-14 19:39+0000\n"
-"PO-Revision-Date: 2020-05-14 21:27+0000\n"
+"POT-Creation-Date: 2020-06-14 13:17+0000\n"
+"PO-Revision-Date: 2020-06-14 13:17+0000\n"
 "Last-Translator: \n"
 "Language-Team: العربية\n"
 "Language: ar\n"
@@ -13,31 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.3.3; wp-5.4"
-
-#. Author of the plugin
-msgid "Ahmad Wael"
-msgstr "أحمد وائل"
-
-#: includes/WSS/Options_Tap.php:40 includes/WSS/Options_Tap.php:43
-msgid "Enable"
-msgstr "تفعيل"
-
-#. Author URI of the plugin
-msgid "https://github.com/devwael"
-msgstr "https://github.com/devwael"
-
-#. URI of the plugin
-msgid "https://innoshop.co"
-msgstr "https://innoshop.co"
-
-#. Description of the plugin
-msgid "Limit checkout states to one state only."
-msgstr "تحديد الشراء و الشحن الى محافظة واحدة"
-
-#: includes/WSS/Options_Tap.php:48
-msgid "Select state"
-msgstr "اختر المحافظة"
+"X-Loco-Version: 2.4.0; wp-5.4"
 
 #: includes/WSS/Options_Tap.php:20
 msgid "Single State"
@@ -47,6 +23,34 @@ msgstr "المحافظة"
 msgid "Single State settings"
 msgstr "اعدادات تحديد المحافظات"
 
+#: includes/WSS/Options_Tap.php:40 includes/WSS/Options_Tap.php:43
+msgid "Enable"
+msgstr "تفعيل"
+
+#: includes/WSS/Options_Tap.php:48
+msgid "Select state"
+msgstr "اختر المحافظة"
+
+#: includes/WSS/Limit_State.php:30 includes/WSS/Limit_State.php:31
+msgid "State States"
+msgstr "تحديد مدينة الشحن"
+
 #. Name of the plugin
 msgid "Woocommerce Single State"
 msgstr "تحديد محافظة البيع للوكومرس"
+
+#. Description of the plugin
+msgid "Limit checkout states to one state only."
+msgstr "تحديد الشراء و الشحن الى محافظة واحدة"
+
+#. URI of the plugin
+msgid "https://innoshop.co"
+msgstr "https://innoshop.co"
+
+#. Author of the plugin
+msgid "Ahmad Wael"
+msgstr "أحمد وائل"
+
+#. Author URI of the plugin
+msgid "https://github.com/devwael"
+msgstr "https://github.com/devwael"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Woocommerce Single State\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-14 19:39+0000\n"
+"POT-Creation-Date: 2020-06-14 13:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,30 +15,6 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.3.3; wp-5.4"
 
-#. Author of the plugin
-msgid "Ahmad Wael"
-msgstr ""
-
-#: includes/WSS/Options_Tap.php:40 includes/WSS/Options_Tap.php:43
-msgid "Enable"
-msgstr ""
-
-#. Author URI of the plugin
-msgid "https://github.com/devwael"
-msgstr ""
-
-#. URI of the plugin
-msgid "https://innoshop.co"
-msgstr ""
-
-#. Description of the plugin
-msgid "Limit checkout states to one state only."
-msgstr ""
-
-#: includes/WSS/Options_Tap.php:48
-msgid "Select state"
-msgstr ""
-
 #: includes/WSS/Options_Tap.php:20
 msgid "Single State"
 msgstr ""
@@ -47,6 +23,34 @@ msgstr ""
 msgid "Single State settings"
 msgstr ""
 
+#: includes/WSS/Options_Tap.php:40 includes/WSS/Options_Tap.php:43
+msgid "Enable"
+msgstr ""
+
+#: includes/WSS/Options_Tap.php:48
+msgid "Select state"
+msgstr ""
+
+#: includes/WSS/Limit_State.php:30 includes/WSS/Limit_State.php:31
+msgid "State States"
+msgstr ""
+
 #. Name of the plugin
 msgid "Woocommerce Single State"
+msgstr ""
+
+#. Description of the plugin
+msgid "Limit checkout states to one state only."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://innoshop.co"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ahmad Wael"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/devwael"
 msgstr ""
